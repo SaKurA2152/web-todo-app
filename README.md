@@ -69,6 +69,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 3.別のウィンドウで以下のコマンドを用いて起動する
-$docker run --rm -it -v "$PWD":/home/node/app -w /home/node/app -p 5173:5173 -u 1000:1000 node:16.16.0-alpine sh -c "npm install && npm run dev"
+$ docker run --rm -it -v "$PWD":/home/node/app -w /home/node/app -p 5173:5173 -u 1000:1000 node:16.16.0-alpine sh -c "npm install && npm run dev"
 
 4. $ php artisan serve --host 0.0.0.0

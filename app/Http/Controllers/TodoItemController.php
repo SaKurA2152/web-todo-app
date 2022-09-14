@@ -81,7 +81,6 @@ class TodoItemController extends Controller
         TodoItem::where('id', $id)->where('user_id', Auth::user()->id)->delete();
         return array('success' => true);
     }
-}
 
  /**
      * [PATCH] Update the specified resource in storage.
@@ -110,3 +109,4 @@ class TodoItemController extends Controller
         $item->save();
         return array('success' => true);
     }
+}
